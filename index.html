@@ -4,8 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse4Pets</title>
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    
+
+    <style>
+        .adlam-display-regular {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .sora-normal {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="bg-[#FFF9F4] sora-normal" >
+            <nav class="container mx-auto flex justify-between items-center py-9" >
+                <div class="flex items-center gap-x-3">
+                    <img src="assets/logo-header.png" alt="">
+                    <h3 >Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+                </div>
+                <div>
+                    <ul class="flex gap-8 ">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                      </ul>
+                      
+                </div>
+                <div class="flex gap-x-4">
+                    <i class="fi fi-rr-bell"></i>
+                    <i class="fi fi-rr-search"></i>
+                    <button class="bg-transparent">Login</button>
+                    <button class="bg-[#FFDC26]">Register</button>
+                    <i class="fi fi-rr-menu-burger lg:hidden"></i>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="hero min-h-dvh container mx-auto bg-[url(/assets/cat-big.png)] bg-center bg-cover  bg-no-repeat">
+            <div>
+                <h2>Pamper Your Pet, <br> Because They Deserve <br> the Best</h2>
+                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button>Find a pet</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>Browse By Categories</h1>
+            </div>
+            <div class="flex">
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+                <div class="c1 bg-[#F9DF8A] items-center text-center">
+                    <img src="./assets/dog-cartoon.png" alt="">
+                    <h1>Dog</h1>
+                    <p>3 items</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>Trending Pet Products</h1>
+            </div>
+            <div class="flex">
+                <div class="bg-[#F9DF8A]">
+                    <h1>T- Shirt For Dogs</h1>
+                    <p>Discover a world of treats, toys, and essentials handpicked for </p>
+                    <button>Shop Now</button>
+                    <img src="./assets/cute-pet-small.png" alt="">
+                </div>
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    <div>
+                        <img src="./assets/dog-cartoon.png" alt="">
+                        <i class="fi fi-ss-star"></i>
+                        <h1>Pet Bed</h1>
+                        <p>$39.99</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>Everyday low Price</h1>
+            </div>
+            <div class="flex gap-x-6">
+                <div class="bg-sky-800">
+                    <p>Under Price</p>
+                    <h1>Pet Grooming Mitt</h1>
+                    <h1>(Easy Hair Removal)</h1>
+                    <h3>$7.99</h3>
+                    <img src="./assets/cute-dog-mid.png" alt="">
+                </div>
+                <div class="bg-slate-900"> 
+                    <h1>Pet Grooming Mitt</h1>
+                    <h3>$7.99</h3>
+                    <img src="./assets/cute-pet-mid.png" alt="">
+
+                </div>
+            </div>
+        </section>
+        <section class="bg-orange-300">
+            <div>
+                <img src="./assets/cute-pet-mid.png" alt="">
+            </div>
+            <div>
+                <h1>Get Pawsome News!</h1>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+                <input type="text" placeholder="Enter email....">
+                <button>Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
