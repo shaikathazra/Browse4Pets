@@ -40,8 +40,8 @@
 </head>
 <body>
     <header>
-        <div class="bg-[#FFF9F4] sora-normal" >
-            <nav class="container mx-auto flex justify-between items-center py-9 px-10" >
+        <div class="bg-[#FFF9F4] sora-normal border-b-2 sm:border-b-0 px-5 lg:px-0" >
+            <nav class="container mx-auto flex justify-between items-center lg:py-9 py-3 " >
                 <div class="flex items-center gap-x-3">
                     <img src="assets/logo-header.png" alt="">
                     <h3 class="text-2xl hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
@@ -61,25 +61,25 @@
                     <button class="bg-[#FFDC26] px-8 py-2 rounded-lg border-2 border-[#FFDC26]">Register</button>
                     
                 </div>
-                <div class="lg:hidden block"><i class="fi fi-rr-menu-burger "></i></div>
+                <div class="lg:hidden "><i class="fi fi-rr-menu-burger text-xl"></i></div>
                 
             </nav>
         </div>
         
-        <div class="hero min-h-[80vh] container mx-auto bg-[url(./assets/cat-bg.png)] bg-bottom bg-cover  bg-no-repeat">
-            <div class="py-20 animate-pulse">
-                <h2 class="adlam-display-regular text-5xl py-6">Pamper Your Pet, <br> Because They Deserve <br> the Best</h2>
-                <p class="sora-normal text-xl text-[#111111b8] pb-6 ">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="bg-[#FFDC26] px-8 py-2 rounded-lg border-2 border-[#FFDC26] text-xl sora-normal">Find a pet</button>
+        <div class="hero min-h-[80vh] container mx-auto bg-[url(./assets/cat-bg.png)] bg-bottom bg-cover bg-no-repeat ">
+            <div class="lg:py-20 py-5 animate-pulse px-5 lg:px-5">
+                <h2 class="adlam-display-regular text-3xl lg:text-5xl py-6 ">Pamper Your Pet, <br> Because They Deserve <br> the Best</h2>
+                <p class="sora-normal text-lg lg:text-xl text-[#111111b8] pb-6 lg:w-2/5">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="bg-[#FFDC26] px-8 py-2 rounded-lg border-2 border-[#FFDC26] text-lg lg:text-xl sora-normal">Find a pet</button>
             </div>
         </div>
     </header>
     <main>
         <section class="container mx-auto pt-12 pb-24">
             <div>
-                <h1 class="adlam-display-regular text-3xl py-12">Browse By Categories</h1>
+                <h1 class="adlam-display-regular text-3xl py-12 px-5 lg:px-0 ">Browse By Categories</h1>
             </div>
-            <div class="flex justify-between">
+            <div class="lg:flex lg:justify-between grid grid-cols-2 gap-4 px-5 lg:px-0 ">
                 <div class="c1 bg-[#F9DF8A] items-center text-center py-9 px-12 rounded-xl">
                     <img src="./assets/dog-cartoon.png" alt="" class="bg-white p-10 rounded-full">
                     <h1 class="pt-6 adlam-display-regular text-xl ">Dog</h1>
@@ -116,17 +116,18 @@
         <section class="bg-[#FFF9F4]">
             <div class="container mx-auto py-20">
                 <div class="pt-10">
-                    <h1 class="adlam-display-regular text-3xl py-12">Trending Pet Products</h1>
+                    <h1 class="adlam-display-regular text-3xl py-12 px-5 lg:px-0 ">Trending Pet Products</h1>
                 </div>
-                <div class="flex justify-between pb-20 ">
+                <div class="lg:flex lg:justify-between pb-20 grid grid-cols-1 px-5 lg:px-0 gap-5 lg:gap-0">
                     <div class="bg-[#F9DF8A] py-10 pl-12 pr-40 relative rounded-xl">
                         <h1 class="adlam-display-regular text-2xl py-6">T- Shirt For Dogs</h1>
-                        <p class="sora-normal text-lg text-[#111111b8] pb-6 ">Discover a world of treats, toys, and <br>essentials handpicked for </p>
-                        <button class="bg-white px-8 py-2 rounded-lg  text-xl sora-normal">Shop Now</button>
-                        <img src="./assets/cute-pet-small.png" alt="" class="absolute bottom-0 right-0 pb-6">
+                        <p class="sora-normal text-sm lg:text-lg text-[#111111b8] pb-6 ">Discover a world of treats, toys, and <br>essentials handpicked for </p>
+                        <button class="bg-white px-8 py-2 rounded-lg  lg:text-xl text-lg sora-normal">Shop Now</button>
+                        <div class="pb-28 lg:pb-0"></div>
+                        <img src="./assets/cute-pet-small.png" alt="" class="absolute bottom-0 right-0 pb-6 ">
                     </div>
-                    <div class="grid grid-cols-3 gap-4 ">
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 ">
+                        <div class="flex gap-2 lg:gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -136,7 +137,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -146,7 +147,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -156,7 +157,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -166,7 +167,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -176,7 +177,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -186,7 +187,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -196,7 +197,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -206,7 +207,7 @@
                                 <p lass="text-lg font-medium">$39.99</p>
                             </div>   
                         </div>
-                        <div class="flex gap-4 items-center py-4 pr-28 pl-4 border-2 rounded-lg bg-white">
+                        <div class="lg:flex gap-4 items-center py-4 pr-0 lg:pr-28 pl-4 border-2 rounded-lg bg-white hidden">
                             <div>
                                 <img src="./assets/pet-couch.png" alt="" class="bg-[#FFF9F4] p-5 rounded-lg">
                             </div>
@@ -224,7 +225,7 @@
             
         </section>
         <section class="bg-[#f5efd184] py-20">
-            <div class="container mx-auto  pb-10">
+            <div class="container mx-auto  pb-10 px-5 lg:px-0">
                 <h1 class="adlam-display-regular text-3xl py-12">Happy Pet Owners</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="bg-white p-10 rounded-lg  text-left">
@@ -252,29 +253,29 @@
             </div>
         </section>
         
-        <section class="pt-24 pb-96 container mx-auto">
+        <section class="pt-24 pb-96 container mx-auto  px-5 lg:px-0">
             <div>
                 <h1 class="adlam-display-regular text-3xl py-12">Everyday low Price</h1>
             </div>
-            <div class="flex gap-x-6 pb-20">
-                <div class="bg-[linear-gradient(to_right,#F8CCFB,#ACD2FD)] flex justify-between items-center pl-24 pr-5 rounded-xl ">
+            <div class="lg:flex lg:gap-x-6 pb-20 grid grid-cols-1 gap-4 ">
+                <div class="bg-[linear-gradient(to_right,#F8CCFB,#ACD2FD)] lg:flex justify-between items-center lg:pl-24 pl-5 pr-5 rounded-xl ">
                     <div>
-                        <p class="sora-normal text-xl pb-3 ">Under Price</p>
-                        <h1 class="adlam-display-regular text-4xl pb-2">Pet Grooming Mitt</h1>
-                        <h1 class="adlam-display-regular text-2xl text-white">(Easy Hair Removal)</h1>
-                        <h3 class="adlam-display-regular text-5xl pt-4 pb-2">$7.99</h3>
+                        <p class="sora-normal text-xl pb-3 hidden lg:block">Under Price</p>
+                        <h1 class="adlam-display-regular lg:text-4xl text-2xl pb-2 pt-10 lg:pt-0">Pet Grooming Mitt</h1>
+                        <h1 class="adlam-display-regular text-2xl text-white hidden lg:block">(Easy Hair Removal)</h1>
+                        <h3 class="adlam-display-regular lg:text-5xl text-3xl lg:pt-4 pb-2 text-white lg:text-black">$7.99</h3>
                     </div>
                     <div>
-                        <img src="./assets/cute-dog-mid.png" alt="">
+                        <img src="./assets/cute-dog-mid.png" alt="" class="pl-20 lg:pl-0">
                     </div>
                 </div>
-                <div class="bg-[linear-gradient(to_right,#FFF9F4,#F9DF8A)] flex pt-20 pl-10 pr-5 rounded-xl">
+                <div class="bg-[linear-gradient(to_right,#FFF9F4,#F9DF8A)] lg:flex pt-20 pl-10 pr-5 rounded-xl">
                     <div>
-                        <h1 class="adlam-display-regular text-4xl pb-2">T-Shirt for Dogs</h1>
+                        <h1 class="adlam-display-regular lg:text-4xl text-2xl pb-2">T-Shirt for Dogs</h1>
                         <h3 class="adlam-display-regular text-5xl pt-4 pb-2 text-[#FFDC26]">$7.99</h3>
                     </div>
                     <div>
-                        <img src="./assets/cute-pet-mid.png" alt="">
+                        <img src="./assets/cute-pet-mid.png" alt="" class="pl-20 lg:pl-0">
                     </div>
                 </div>
                 
@@ -283,16 +284,16 @@
         
     </main>
     <footer class="bg-[#ffdc2680] pt-96 pb-28 relative" >
-        <section class="bg-[#FFF9F4] container mx-auto  z-10 absolute -top-1/2 left-[10%] rounded-2xl">
-            <div class="flex py-20 px-20 gap-20 ">
+        <section class="bg-[#FFF9F4] container mx-auto  z-10 absolute -top-1/2 lg:left-[10%] left-[2.5%] rounded-2xl w-[95%]">
+            <div class="flex-row lg:flex py-20 px-20 gap-20 text-center lg:text-start ">
                 <div class="pl-10 pr-24">
                     <img src="./assets/cute-pet-mid.png" alt="">
                 </div>
                 <div>
                     <div>
                         <h1 class="adlam-display-regular text-3xl pt-12 pb-6">Get Pawsome News!</h1>
-                        <p class="sora-normal text-xl pb-8 ">Exclusive training tips, ticks, product deals and more.</p>
-                        <input type="text" placeholder="Enter email...." class="w-[70%] p-4 rounded-lg">
+                        <p class="sora-normal lg:text-xl text-sm pb-8 ">Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="text" placeholder="Enter email...." class="lg:w-[70%] w-full p-4 rounded-lg">
                     </div>
                     <div class="pt-8">
                         <button class="sora-normal bg-[#FFDC26] px-8 py-2 rounded-lg border-2 border-[#FFDC26]">Subscribe</button>
@@ -302,25 +303,25 @@
             </div>
             
         </section>
-        <div class="container mx-auto ">
-            <div class="ft flex justify-between items-end">
-                <div class="ft1 w-96">
+        <div class="container mx-auto px-5 lg:px-0 ">
+            <div class="ft flex-row lg:flex justify-between items-end ">
+                <div class="ft1 w-96 pb-6 lg:pb-0">
                     <div class="flex gap-2 items-center pb-4">
                         <img src="./assets/logo-footer.png" alt="">
                         <h3 class="text-2xl" >Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
                     </div>
                     
-                    <p class="sora-normal text-xl text-[#111111b8] ">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                    <p class="sora-normal lg:text-xl text-lg text-[#111111b8] ">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
                 </div>
-                <div class="ft2">
-                    <ul class="text-xl sora-normal">
-                        <li class="pb-6"><a href="">Find a pet</a></li>
-                        <li class="pb-6"><a href="">Breeds</a></li>
+                <div class="ft2 pb-6 lg:pb-0">
+                    <ul class="lg:text-xl text-lg sora-normal">
+                        <li class="lg:pb-6 pb-2"><a href="">Find a pet</a></li>
+                        <li class="lg:pb-6 pb-2"><a href="">Breeds</a></li>
                         <li><a href="">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="ft3">
-                    <h3 class="text-lg font-medium sora-normal pb-2" >Follow Us</h3>
+                    <h3 class="lg:text-lg text-sm font-medium sora-normal pb-2" >Follow Us</h3>
                     <div class="flex gap-4 items-center ">
                         <img src="./assets/facebook.png" alt="" class="w-6 h-6">
                         <img src="./assets/instagram.png" alt=""class="w-6 h-6">
